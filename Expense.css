@@ -1,0 +1,136 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e2e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent {
+    width: 90%;
+    max-width: 600px;
+    background: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    margin-top: 20px;
+}
+
+.input-section input, 
+.input-section select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #44475a;
+    color: #fff;
+}
+
+.input-section label {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.handle-button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.handle-button button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #50fa7b;
+    color: #282a36;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.handle-button button:hover {
+    background-color: #34d058;
+}
+
+.show-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    background: #191a21;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    background: #191a21;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #44475a;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr {
+    transition: 0.3s;
+}
+
+tbody tr:hover {
+    background-color: #44475a;
+}
+
+td, th {
+    padding: 12px;
+    border-bottom: 1px solid #50fa7b;
+}
+
+.table-expense {
+    color: #ff5555;
+}
+
+.table-income {
+    color: #50fa7b;
+}
+
+.table-balance {
+    color: #bd93f9;
+}
+
+.table-delete {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff5555;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.table-delete:hover {
+    background-color: #ff2222;
+}
+
+.error-style {
+    color: #ff5555;
+    font-size: small;
+    visibility: visible;
+}
+
+.span-show, span {
+    color: #ff5555;
+    font-size: small;
+    visibility: hidden;
+}
